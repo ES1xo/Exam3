@@ -15,7 +15,7 @@ public class Node
     }
 }
 
-public class Program 
+public class thirdTaskProgram 
 {
     public static int CalculateSum(Node root)
     {
@@ -45,7 +45,7 @@ public class Program
         return 1 + CountNodes(root.left) + CountNodes(root.right);
     }
 
-    public static void Main(string[] args)
+    public static void thirdTaskMain(string[] args)
     {
         //Test structure
         Node root = new Node(67);
