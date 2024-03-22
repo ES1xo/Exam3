@@ -47,23 +47,19 @@ public class thirdTaskProgram
 
     public static void thirdTaskMain(string[] args)
     {
-        //Test structure
+        
         Node root = new Node(67);
         root.left = new Node(765);
         root.right = new Node(167);
         root.right.left = new Node(564);
         root.right.left.right = new Node(379);
 
-        //Calculate sum
         int sum = CalculateSum(root);
 
-        //Find deepest level
         int deepestLevel = FindDeepestLevel(root);
 
-        //Count nodes
         int nodeCount = CountNodes(root);
 
-        //Print results
         Console.WriteLine("Sum = " + sum);
         Console.WriteLine("Deepest level = " + deepestLevel);
         Console.WriteLine("Nodes = " + nodeCount);
