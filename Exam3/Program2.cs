@@ -25,7 +25,7 @@ public class secondTaskProgram
         return flattened;
     }
 
-    public static void Main(string[] args)
+    public static void secondTaskMain(string[] args)
     {
         List<object> nestedArray = new List<object>
         {
