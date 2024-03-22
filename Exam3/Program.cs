@@ -44,7 +44,7 @@ public class firstTaskProgram
         return "Hello, " + name + "!";
     }
 
-       public static void Main(string[] args)
+       public static void firstTaskMain(string[] args)
     {
         // Example usage for testing
         double number = 5;

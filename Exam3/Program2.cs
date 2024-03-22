@@ -4,8 +4,6 @@ using System.Collections.Generic;
 namespace secondTaskNamespace
 
 {
-
-
 public class secondTaskProgram
 {
     public static List<int> FlattenArray(List<object> array)
@@ -27,7 +25,7 @@ public class secondTaskProgram
         return flattened;
     }
 
-    public static void secondTaskMain(string[] args)
+    public static void Main(string[] args)
     {
         List<object> nestedArray = new List<object>
         {
