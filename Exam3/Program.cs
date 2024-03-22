@@ -46,7 +46,7 @@ public class firstTaskProgram
 
        public static void firstTaskMain(string[] args)
     {
-        // Example usage for testing
+    
         double number = 5;
         Console.WriteLine("Square of " + number + ": " + Square(number));
 
